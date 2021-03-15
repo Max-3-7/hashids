@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author        = { "Matt" => "mateusz@malczak.info" }
   s.source        = { :git => "https://github.com/malczak/hashids.git", :tag => s.version.to_s }
 
-  s.platform      = :ios, "11.0"
+  s.platform      = :ios, "10.0"
   s.swift_versions = '5.0'
 
   s.source_files  = "*.swift"
