@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage      = "http://hashids.org/swift/"
   s.summary       = "Small open-source library that generates short, unique, non-sequential ids from numbers."
   s.author        = { "Matt" => "mateusz@malczak.info" }
-  s.source        = { :git => "https://github.com/malczak/hashids.git", :tag => s.version.to_s }
+  s.source        = { :git => "https://github.com/Max-3-7/hashids.git", :tag => s.version.to_s }
 
   s.platform      = :ios, "10.0"
   s.swift_versions = '5.0'
